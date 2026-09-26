@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Ghosh — Portfolio & Lab Notes</title>
+    <!-- Tailwind CSS CDN for instant, modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-zinc-900 antialiased selection:bg-zinc-100">
+
+    <!-- Main Container (Narrow, Centered Layout) -->
+    <main class="max-w-2xl mx-auto px-6 py-16 md:py-24">
+
+        <!-- Header / Nav -->
+        <header class="flex justify-between items-center mb-16">
+            <span class="font-bold text-lg tracking-tight">Rahul Ghosh</span>
+            <nav class="flex gap-6 text-sm font-medium text-zinc-600">
+                <a href="https://www.linkedin.com" target="_blank" class="hover:text-zinc-900 transition-colors">LinkedIn</a>
+                <a href="mailto:rahulbesume@gmail.com" class="hover:text-zinc-900 transition-colors">Email</a>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="mb-16">
+            <h1 class="text-3xl font-bold tracking-tight mb-6">
+                Hey, I'm Rahul 👋
+            </h1>
+            <p class="text-lg text-zinc-600 leading-relaxed mb-4">
+                I'm an automotive engineer at <strong class="text-zinc-900 font-semibold">Maruti Suzuki India Limited</strong>. My core professional focus centers around brake system design (ABS/ESP) and Advanced Driver Assistance Systems (ADAS).
+            </p>
+            <p class="text-base text-zinc-600 leading-relaxed">
+                Outside of work, I build hardware-in-the-loop embedded systems, experiment with V2X communication protocols using Arduino, and write about mobility technology.
+            </p>
+        </section>
+
+        <!-- Core Skills / Tech Stack -->
+        <section class="mb-16">
+            <h2 class="text-xl font-bold tracking-tight mb-4">Core Stack</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-zinc-100 text-zinc-800 text-xs font-medium px-3 py-1.5 rounded-md">Python</span>
+                <span class="bg-zinc-100 text-zinc-800 text-xs font-medium px-3 py-1.5 rounded-md">C / C++ (Arduino)</span>
+                <span class="bg-zinc-100 text-zinc-800 text-xs font-medium px-3 py-1.5 rounded-md">CAN Bus (MCP2515)</span>
+                <span class="bg-zinc-100 text-zinc-800 text-xs font-medium px-3 py-1.5 rounded-md">LoRa RF (SX1278)</span>
+                <span class="bg-zinc-100 text-zinc-800 text-xs font-medium px-3 py-1.5 rounded-md">ABS / ESP / ADAS</span>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="mb-16">
+            <h2 class="text-xl font-bold tracking-tight mb-6">Featured Projects</h2>
+            
+            <div class="space-y-4">
+                <!-- Project 1 -->
+                <div class="border border-zinc-200 rounded-lg p-5 hover:border-zinc-300 transition-all">
+                    <div class="flex justify-between items-baseline mb-2">
+                        <h3 class="font-semibold text-zinc-900">V2X Communication Testbench</h3>
+                        <span class="text-xs font-mono text-zinc-500 bg-zinc-50 border border-zinc-200 px-2 py-0.5 rounded">Active</span>
+                    </div>
+                    <p class="text-sm text-zinc-600 mb-3">
+                        Building a modular hardware testbench using Arduino, MCP2515 CAN bus modules, and LoRa transceivers to simulate V2V and V2I telemetry exchange.
+                    </p>
+                    <div class="text-xs font-mono text-zinc-500">Arduino &bull; CAN &bull; LoRa &bull; Python</div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="border border-zinc-200 rounded-lg p-5 hover:border-zinc-300 transition-all">
+                    <div class="flex justify-between items-baseline mb-2">
+                        <h3 class="font-semibold text-zinc-900">Autonomous Driving & Python Lab</h3>
+                        <span class="text-xs font-mono text-zinc-500 bg-zinc-50 border border-zinc-200 px-2 py-0.5 rounded">Completed</span>
+                    </div>
+                    <p class="text-sm text-zinc-600 mb-3">
+                        Technical coursework and certifications focused on automation, navigation algorithms, and sensor data processing.
+                    </p>
+                    <div class="text-xs font-mono text-zinc-500">Python &bull; NPTEL &bull; Coursera</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-16">
+            <h2 class="text-xl font-bold tracking-tight mb-4">Education</h2>
+            <div class="space-y-3 text-sm text-zinc-700">
+                <div class="flex justify-between items-baseline">
+                    <span><strong class="text-zinc-900">BITS Pilani</strong> — Master's Degree</span>
+                </div>
+                <div class="flex justify-between items-baseline">
+                    <span><strong class="text-zinc-900">IIEST Shibpur</strong> — Undergraduate Studies</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lab Notes / Writing -->
+        <section class="mb-20">
+            <h2 class="text-xl font-bold tracking-tight mb-4">Lab Notes</h2>
+            <div class="border-l-2 border-zinc-900 pl-4 py-1">
+                <p class="text-xs text-zinc-500 font-mono mb-1">Coming Soon</p>
+                <h4 class="text-sm font-semibold text-zinc-900">Unboxing and Wiring the Arduino V2X Testbench: CAN Bus Integration</h4>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-zinc-100 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-zinc-500">
+            <span>"My religion is to live and die without regret." — Milarepa</span>
+            <span>© 2026 Rahul Ghosh</span>
+        </footer>
+
+    </main>
+
+</body>
+</html>
